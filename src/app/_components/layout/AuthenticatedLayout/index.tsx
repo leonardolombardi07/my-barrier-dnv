@@ -131,6 +131,8 @@ function DrawerContent({ json, setJson }: DrawerContentProps) {
       >
         Alterar JSON!
       </Button>
+
+      <div style={{ height: 400, width: 400, background: "red" }} />
     </div>
   );
 }
