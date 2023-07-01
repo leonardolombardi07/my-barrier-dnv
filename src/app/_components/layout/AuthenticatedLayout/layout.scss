@@ -1,0 +1,70 @@
+.rubik-body {
+    // padding-top: 60px;
+    // height: calc(100vh - 60px);
+}
+
+.rubik-header {
+  position: fixed;
+  width: 100%;
+  background-color: lightblue;
+  border: 1px solid lightgray;
+  height: 60px;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding-right: 10px;
+
+  img {
+      margin: 10px 0;
+  }
+
+  .header-menu {
+      height: 100%;
+      
+      .dx-button-mode-contained {
+          background-color: transparent;
+          border-color: transparent;
+      }
+
+      .dx-button.dx-button-has-icon:not(.dx-button-has-text):not(.dx-shape-standard) {
+          border-radius: 0;
+      }
+
+      .dx-button {
+          height: 0px;
+          overflow: inherit;
+      }
+
+      .dx-icon {
+          color: white;
+          font-size: 2rem;
+          width: 50px;
+          height: 50px;
+          background-size: 50px 50px;
+          line-height: 50px;
+      }
+  }
+
+  .header-title {
+      font-family: 'Roboto', sans-serif;
+      color: white;
+      font-size: 2rem;
+      margin-left: 10px;
+  }
+}
+
+
+.rubik-drawer {
+  .dx-drawer-panel-content {
+      background-color: lightblue;
+      border-left: solid 1px rgb(100, 21, 100);
+      width: 800px;
+  }
+
+  .dx-drawer-content {
+      min-height: 100%;
+      overflow-y: auto;
+  }
+}
+
